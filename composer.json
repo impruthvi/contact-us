@@ -2,14 +2,16 @@
     "name": "impruthvi/contact",
     "type": "library",
     "license": "MIT",
+    "require": {
+        "php": "^8.0.2"
+    },
     "authors": [
         {
             "name": "Pruthvisinh Rajput",
             "email": "pruthvisinh.rajput@yudiz.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Impruthvi\\Contact\\" : "src/"
