@@ -1,0 +1,25 @@
+{
+    "name": "impruthvi/contact",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pruthvisinh Rajput",
+            "email": "pruthvisinh.rajput@yudiz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Impruthvi\\Contact\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Impruthvi\\Contact\\ContactServiceProvider"
+            ] 
+        }
+    }
+}
